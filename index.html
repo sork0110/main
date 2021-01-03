@@ -3,25 +3,53 @@
   <title>Welcome, ralo2400</title>
   <meta name="description" content="Ralo Fan Site" charset="utf-8">
   <style>
-    html{background-color:#223440; color:#F2F2F2; font-size:30px;}
-    h1{ font-size:75px; }
-    h2{ font-size:50px; }
-    ul{ text-decoration:none; list-style:none; }
-    body{ text-align:center }
-    .point{ background-color: #F24150; color:#F2F2F2;}
+    #grid{
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      padding:0px;
+    }
+    h1{
+      font-size:75px; margin:0; border-bottom: 2px #F2F2F2 solid;
+      text-align: center; text-decoration: none; padding: 50px;
+    }
+    ul{ text-decoration:none; list-style:decimal; display:inline;
+    }
+    body{
+      margin:0; color:#F2F2F2; background-color:#223440; color:#F2F2F2; font-size:30px;
+    }
+    li{ list-style:none; padding:3px;}
+    p{
+      margin: 0;
+    }
+    .point{ background-color: #F24150; color:#F2F2F2; font-weight: bold;}
+    .list{ text-align:left; border-right: 2px #F2F2F2 solid; display:block; padding:20px;}
+    .text{
+      padding:20px;
+    }
+    a{
+      color:#F2F2F2;
+      text-decoration: none;
+    }
   </style>
 </head>
+
 <body>
+
 <div>
-  <h1>Ralo</h1>
-  <a href="https://www.youtube.com/channel/UCD2YO_A_PVMgMDN9jpRrpVA" title="Go to Ralo's Youtube Channel" target="_blank"><img src="img/ralo_yt_profile.png" alt="ralo youtube profile" width="5%" ></a>
-  <p><strong class="point">The Season2 2400</strong>, His words are the most interesting and favorite of the YouTubers.</p>
+  <h1><a href="index.html" title="Go to Welcome Page">Ralo</a></h1>
 </div>
 
- <div><h2><strong class="point">Ralo's League of legend Attitudes</strong></h2>
-  <ul>
-    <li>Flexible thinking</li>
-    <li>Do not blame the team</li>
-  </ul>
+<div id="grid">
+  <div class="list">
+      <li style="background-color:#A63C4F"><strong>The Ralo list</strong></li>
+      <li><a href="who_is_ralo.html">Who is Ralo?</a></li>
+      <li><a href="what_did_ralo.html">What did Ralo do?</a></li>
+      <li><a href="why_is_ralo.html">Why is Ralo funny?</a></li>
+      <li><a href="where_is_ralo">Where is Ralo living?</a></li>
+  </div>
+  <div class="text">
+    <p>Welcome to Ralo2400! This site will deliver to Ralo's charm.. <span class="point">Let's click Ralo list!</span> <strong>It's on your right...</strong></p>
+  </div>
 </div>
+
 </body>
